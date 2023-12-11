@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\hazii\OneDrive\Documents\GitHub\Navigation_Navigators\finished\FireShipNavBar\index.html</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\hazii\OneDrive\Documents\GitHub\Navigation_Navigators\finished\FireShipNavBar\style.css</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\Users\hazii\OneDrive\Documents\GitHub\Navigation_Navigators\finished\FireShipNavBar\theme.js</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
