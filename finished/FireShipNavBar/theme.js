@@ -6,7 +6,9 @@ const themeMap = {
 
 const theme =
     localStorage.getItem("theme") ||
+    //no idea what's going on here really
     ((tmp = Object.keys(themeMap)[0]), localStorage.setItem("theme", tmp), tmp);
+//end of no idea what's going here
 const bodyClass = document.body.classList;
 bodyClass.add(theme);
 function toggleTheme() {
