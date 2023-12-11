@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bottom Navigation</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="page" class="site">
+      <div class="container">
+        <nav>
+          <ul>
+            <li class="active">
+              <!-- home start -->
+              <a href="#home">
+                <span>Home</span>
+                <i class="ri-home-5-line"></i>
+              </a>
+            </li>
+            <!-- home end -->
+            <!-- drop start -->
+            <li>
+              <a href="#drop">
+                <span>Drop</span>
+                <i class="ri-contrast-drop-2-line"></i>
+              </a>
+            </li>
+            <!-- drop end -->
+            <!-- store start -->
+            <li>
+              <a href="#store">
+                <span>Store</span>
+                <i class="ri-store-2-line"></i>
+                <span class="label sale">sale</span>
+              </a>
+            </li>
+            <!-- store end -->
+            <!-- wish list start -->
+            <li>
+              <a href="#wishList">
+                <span>WishList</span>
+                <i class="ri-hearts-line"></i>
+              </a>
+            </li>
+            <!-- wish list end -->
+            <!-- cart start -->
+            <li>
+              <a href="#cart">
+                <span>Cart</span>
+                <i class="ri-shopping-cart-line"></i>
+                <span class="label cart">0</span>
+              </a>
+            </li>
+            <!-- cart end -->
+          </ul>
+        </nav>
+        <section>
+          <div id="home">
+            <h2>Home</h2>
+          </div>
+          <div id="drop">
+            <h2>Drop</h2>
+          </div>
+          <div id="store">
+            <h2>Store</h2>
+          </div>
+          <div id="wishList">
+            <h2>WishList</h2>
+          </div>
+          <div id="cart">
+            <h2>Cart</h2>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
